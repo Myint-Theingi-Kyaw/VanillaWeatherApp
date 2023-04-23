@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
+</head>
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+rel="stylesheet"
+integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+crossorigin="anonymous"
+/>
+<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+<link rel="stylesheet" href="src/styles.css" />
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+		<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+<body>
+	<body>
+    <div class="container">
+      <div class="input-details" id="search-form">
+        <form id="city-form">
+          <input
+          id="input-city"
+          class="input-field"
+          type="text"
+          placeholder="Search for cities"
+        />
+        <input type="submit" value="Search" />
+        </form>
+        <button class="location-btn">
+          <div class="fa-solid fa-location-dot location-icon"></div>
+        </button>
+      </div>
+      <div class="city-details">
+        <h1 id="city-name">Pakokku</h1>
+        <p id="date">Sunday 5:30</p>
+        <p id="situation">Sunny</p>
+      </div>
+      <div class="weather-container">
+        <div class="weather-icon">
+          <img
+              src="https://openweathermap.org/img/wn/01d@2x.png"
+            />
+          <p class="celcius" id="temp">30</p>
+          <span class="link-style"
+            ><a href="#" id="clink">℃</a>|<a href="#" id="flink">℉</a></span
+          >
+        </div>
+        <div class="weather-details">
+          <ul>
+            <li>
+              <i class="fa-solid fa-cloud-rain tiny-icon"></i> Precipitation:
+              <span>0%</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-water tiny-icon"></i> Humidity:
+              <span>39%</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-wind tiny-icon"></i> Wind:
+              <span>18 km/h</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+        <!-- </div>-->
+      
+
+				<div class="footer">
+					Coded by <a href="https://github.com/Myint-Theingi-Kyaw" target="-blank">Myint Theingi Kyaw</a>.
+			</div>
+
+  
+
+	<script src="src/index.js">
+	</script>
+</body>
+
+</html>
