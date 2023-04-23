@@ -12,7 +12,7 @@ integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6
 crossorigin="anonymous"
 />
 <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
-<link rel="stylesheet" href="src/styles.css" />
+<link rel="stylesheet" href="src\style.css" />
 <link
 rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -38,7 +38,7 @@ referrerpolicy="no-referrer"
           type="text"
           placeholder="Search for cities"
         />
-        <input type="submit" value="Search" />
+        <input type="submit" value="Search" id="search" />
         </form>
         <button class="location-btn">
           <div class="fa-solid fa-location-dot location-icon"></div>
@@ -52,7 +52,7 @@ referrerpolicy="no-referrer"
       <div class="weather-container">
         <div class="weather-icon">
           <img
-              src="https://openweathermap.org/img/wn/01d@2x.png"
+              src="https://openweathermap.org/img/wn/01d@2x.png" id="icon"
             />
           <p class="celcius" id="temp">30</p>
           <span class="link-style"
@@ -67,11 +67,11 @@ referrerpolicy="no-referrer"
             </li>
             <li>
               <i class="fa-solid fa-water tiny-icon"></i> Humidity:
-              <span>39%</span>
+              <span id="humidity">39%</span>
             </li>
             <li>
               <i class="fa-solid fa-wind tiny-icon"></i> Wind:
-              <span>18 km/h</span>
+              <span id="wind">18 km/h</span>
             </li>
           </ul>
         </div>
