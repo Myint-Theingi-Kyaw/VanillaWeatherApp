@@ -157,9 +157,9 @@
   box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.3);
 }
 
-img {
-  height: 70px;
-  width: 70px;
+#icon {
+  height: 30px;
+  width: 30px;
 }
 
 .footer {
